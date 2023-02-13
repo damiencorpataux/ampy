@@ -33,7 +33,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    version="2022.4.22",
+    version="2022.4.22.1",
     name='adafruit-ampy-master',
 
     # use_scm_version=True,
@@ -44,7 +44,7 @@ setup(
     long_description_content_type='text/markdown',
 
     # The project's main homepage.
-    url='https://github.com/damiencorpataux/ampy',
+    url='https://github.com/damiencorpataux/ampy/tree/release-to-pypi',
 
     # Author details
     author='Adafruit Industries',
