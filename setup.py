@@ -33,22 +33,22 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    version="1.1.0",
-    name='adafruit-ampy',
+    version="2022.4.22",
+    name='adafruit-ampy-master',
 
     # use_scm_version=True,
     # setup_requires=['setuptools_scm'],
 
-    description='ampy (Adafruit MicroPython tool) is a command line tool to interact with a CircuitPython or MicroPython board over a serial connection.',
+    description='Unofficial release of package ampy (Adafruit MicroPython tool), a command line tool to interact with a CircuitPython or MicroPython board over a serial connection.',
     long_description=long_description,
     long_description_content_type='text/markdown',
 
     # The project's main homepage.
-    url='https://github.com/adafruit/ampy',
+    url='https://github.com/damiencorpataux/ampy',
 
     # Author details
     author='Adafruit Industries',
-    author_email='circuitpython@adafruit.com',
+    author_email='d@mien.ch',
 
     install_requires=['click', 'pyserial', 'python-dotenv'],
 
